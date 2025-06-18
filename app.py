@@ -56,7 +56,7 @@ def load_trained_model():
     """Load the trained model from notebook"""
     try:
         # Try to load complete artifacts first
-        artifacts = joblib.load('/model_artifacts_complete.pkl')
+        artifacts = joblib.load('model_artifacts_complete.pkl')
         model = artifacts['model']
         scaler = artifacts.get('scaler', None)
         feature_names = artifacts['feature_names']
@@ -74,7 +74,7 @@ def load_trained_model():
     except FileNotFoundError:
         try:
             # Fallback to individual files
-            model = joblib.load('/dropout_prediction_model.pkl')
+            model = joblib.load('dropout_prediction_model.pkl')
             try:
                 scaler = joblib.load('feature_scaler.pkl')
             except:
