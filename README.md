@@ -158,7 +158,7 @@ streamlit run app.py
   - **Error Rate**: 14.4% (sangat acceptable untuk business case)
 
 **Link Prototype Cloud Deployment:**
-🚀 **[Jaya Jaya Institut Dropout Prediction App](https://share.streamlit.io/jaya-jaya-dropout-prediction)**
+🚀 **[Jaya Jaya Institut Dropout Prediction App](https://student-predict-andregregs12.streamlit.app/)**
 
 **Cara menggunakan aplikasi:**
 ```bash
