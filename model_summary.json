@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "title": "Jaya Jaya Institut - Dropout Prediction",
+    "author": "Andre Gregori Sangari",
+    "email": "andresangari12@gmail.com",
+    "dicoding_id": "andregregs12"
+  },
+  "model_info": {
+    "algorithm": "Logistic Regression",
+    "accuracy": "0.8565",
+    "f1_score": "0.7822",
+    "total_features": 39,
+    "training_samples": 3539,
+    "test_samples": 885
+  },
+  "business_impact": {
+    "dropout_prevention_rate": "80.28%",
+    "false_alarm_rate": "11.81%",
+    "students_helped": "228 out of 284"
+  },
+  "files_created": [
+    "dropout_prediction_model.pkl",
+    "model_artifacts_complete.pkl",
+    "feature_scaler.pkl",
+    "backup_model.pkl",
+    "prediction_results.csv",
+    "model_summary.json"
+  ]
+}
